@@ -224,11 +224,12 @@ header nav a {
 .learna {
     border: 2px solid  black;
     padding: 10px 35px;
-    border-radius:15%;
+    border-radius:10px;
     text-decoration:none;
     color:black;
     display:flex;
-    width:30%;
+    width:170px;
+    height:40px;
     margin:5%;
 }
 
