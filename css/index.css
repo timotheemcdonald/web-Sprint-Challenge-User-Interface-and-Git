@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    max-width:100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,6 +66,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* my work on header */
+
+header {
+    display:flex;
+    flex-direction:column;
+}
+
+#headimg {
+    display:flex;
+    margin: 5%;
+    justify-content:center;
+}
+
+#headnav {
+    display:flex;
+    justify-content:flex-start;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+/* my work on header */
 
 .container {
     width: 800px;
@@ -111,6 +141,101 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*my work on coloring boxes*/
+
+#boxone {
+    background-color:teal;
+}
+
+#boxtwo {
+    background-color: gold;
+}
+
+#boxthree {
+    background-color: cadetblue;
+}
+
+#boxfour {
+    background-color: coral;
+}
+
+#boxfive {
+    background-color: crimson;
+}
+
+#boxsix {
+    background-color: forestgreen;
+}
+
+#boxseven {
+    background-color: darkorchid;
+}
+
+#boxeight {
+    background-color: hotpink;
+}
+
+#boxnine {
+    background-color: indigo;
+}
+
+#boxten {
+    background-color: dodgerblue;
+}
+
+/*my work on coloring boxes*/
+
+/*my work on about page*/
+
+#ad {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding:20px;
+}
+
+#contain-about{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.aboutdivs {
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+    flex-wrap:wrap;
+    width: 50%;
+}
+
+
+.about-txt {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-content:flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+
+.learna {
+    border: 2px solid  black;
+    padding: 10px 35px;
+    border-radius:15%;
+    text-decoration:none;
+    color:black;
+    display:flex;
+    width:30%;
+    margin:5%;
+}
+
+#lwt {
+    margin-bottom:20px;
+}
+/*my work on about page*/
 
 .bottom-content {
     display: flex;
